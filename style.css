@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  text-align: center;
+}
+
+#all {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 70px;
+}
+
+#message {
+  margin-top: 30px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 325px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px dashed rgb(254, 179, 171);
+  font-size: 64px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sqr:hover {
+  cursor: pointer;
+}
+
+#reset {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  padding: 10px;
+  width: 15%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#reset:hover {
+  background-color: rgb(248, 198, 192);
+  transition: 0.5s;
+}
